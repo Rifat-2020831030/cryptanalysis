@@ -1,0 +1,5 @@
+=> checkpoint 1
+- Perform bruteforce with each possible shift 
+- For each, store the result in a txt file
+- Review each file to identify the correct plaintext
+- Use the correct shift to decode the message
