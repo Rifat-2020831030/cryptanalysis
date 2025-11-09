@@ -1,0 +1,59 @@
+Breaking Substitution Ciphers Using Frequency Analysis
+=========================================================================
+
+1. ANALYZE THE CIPHER TEXT
+   - Count frequency of each letter in the encrypted text
+   - Calculate percentage distribution
+   - Sort by frequency (highest to lowest)
+   - Compare pattern with English frequency
+
+2. CREATE INITIAL MAPPING
+   - Match most frequent cipher letter → 'E' (most frequent in English)
+   - Match second most frequent → 'T'
+   - Continue mapping by frequency rank
+   - This gives a starting point, though rarely perfect
+
+3. APPLY INITIAL MAPPING
+   - Substitute all letters according to frequency mapping
+   - Read the output to check if it resembles English
+   - Look for recognizable word patterns
+
+4. IDENTIFY PATTERNS AND REFINE
+   - Look for common short words:
+     * Single letters: 'I', 'A'
+     * Two letters: 'TO', 'OF', 'IN', 'IT', 'IS', 'AT'
+     * Three letters: 'THE', 'AND', 'FOR', 'ARE'
+   
+   - Check for common letter patterns:
+     * Double letters: 'LL', 'EE', 'SS', 'OO', 'TT'
+     * Common endings: '-ING', '-TION', '-ED', '-ER'
+     * Common prefixes: 'UN-', 'RE-', 'IN-', 'DIS-'
+
+5. ITERATIVE REFINEMENT
+   - If a word looks like "THR" → probably "THE"
+   - If seeing "QND" → likely "AND" (Q=A, N=N, D=D)
+   - Made one mapping change at a time
+   - Reapplyed and checked entire text
+   - Looked for context clues in partially decrypted text
+
+6. USE CONTEXTUAL CLUES
+   - Once several words are clear, use context to guess others
+   - Consider the topic/theme of the message
+   - Literary or formal text has different word choices than casual
+
+7. FINALIZE THE MAPPING
+    - Once most text is readable, fill in remaining letters
+    - Some rare letters might not appear in short texts
+    - Verify the complete mapping makes sense across entire message
+
+SPECIFIC OBSERVATIONS FOR THIS PROBLEM:
+
+Cipher 1:
+- Started with frequency analysis
+- Noticed high frequency of 'p', 'a', 'f' suggested common letters
+- Pattern analysis revealed "ceiri" → "there" helped crack several letters
+
+Cipher 2:
+- Similar approach with frequency analysis
+- Noticed repeated patterns like "toz" suggesting common words
+- Double letters helped: "aonncmz" → "baggins"
