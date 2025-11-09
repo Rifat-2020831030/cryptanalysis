@@ -46,3 +46,8 @@ def run():
 
 if __name__ == "__main__":
     results = run()
+    for result in results:
+        print(f"Algorithm: {result['algorithm']}")
+        print(f"Digest: {result['digest']}")
+        print(f"Length: {result['length_bits']} bits ({result['length_bytes']} bytes)")
+        print("-" * 40)
