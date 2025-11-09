@@ -1,0 +1,2 @@
+This is a test message for generating hash digests.
+We will use multiple hashing algorithms.
