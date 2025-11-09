@@ -80,3 +80,10 @@ def run():
 
 if __name__ == "__main__":
     results = run()
+    for res in results:
+        print(f"Algorithm: {res['algorithm']}")
+        print(f"  H1: {res['h1']}")
+        print(f"  H2: {res['h2']}")
+        print(f"  Total bits: {res['total_bits']}")
+        print(f"  Same bits: {res['same_bits']} ({100*res['same_bits']/res['total_bits']:.2f}%)")
+        print(f"  Different bits: {res['different_bits']} ({res['change_percentage']:.2f}%)\n")

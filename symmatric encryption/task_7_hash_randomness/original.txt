@@ -1,0 +1,1 @@
+This is a test message to demonstrate the avalanche effect in cryptographic hash functions.

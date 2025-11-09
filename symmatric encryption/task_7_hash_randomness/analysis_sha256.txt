@@ -1,0 +1,9 @@
+SHA256 Hash Randomness Analysis
+==================================================
+
+H1: 592d6bc83f1454eb3c4f791241682880b4ae2046060e53a86c313970eeb5add9
+H2: e9defc672bc8c592594ee1500301a9d2c5174e47b2785b3d6a305fb966efbf41
+
+Total bits: 256
+Same bits: 149 (58.20%)
+Different bits: 107 (41.80%)

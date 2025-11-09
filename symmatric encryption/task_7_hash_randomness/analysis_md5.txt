@@ -1,0 +1,9 @@
+MD5 Hash Randomness Analysis
+==================================================
+
+H1: 11aaeb41b29d9a95896f6f08f9f71d39
+H2: 1927828fb958761d024fe521667b0195
+
+Total bits: 128
+Same bits: 73 (57.03%)
+Different bits: 55 (42.97%)
